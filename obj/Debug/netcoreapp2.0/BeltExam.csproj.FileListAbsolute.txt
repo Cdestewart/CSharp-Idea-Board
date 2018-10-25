@@ -1,0 +1,22 @@
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.deps.json
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.runtimeconfig.json
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.runtimeconfig.dev.json
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.dll
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.pdb
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.csprojResolveAssemblyReference.cache
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.csproj.CoreCompileInputs.cache
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.AssemblyInfoInputs.cache
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.AssemblyInfo.cs
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.dll
+C:\Users\littl\Documents\Caitlin\Coding Dojo\C#\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.pdb
+C:\Users\littl\Documents\Caitlin\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.deps.json
+C:\Users\littl\Documents\Caitlin\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.runtimeconfig.json
+C:\Users\littl\Documents\Caitlin\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.runtimeconfig.dev.json
+C:\Users\littl\Documents\Caitlin\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.dll
+C:\Users\littl\Documents\Caitlin\BeltExam\bin\Debug\netcoreapp2.0\BeltExam.pdb
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.csprojAssemblyReference.cache
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.csproj.CoreCompileInputs.cache
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.AssemblyInfoInputs.cache
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.AssemblyInfo.cs
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.dll
+C:\Users\littl\Documents\Caitlin\BeltExam\obj\Debug\netcoreapp2.0\BeltExam.pdb

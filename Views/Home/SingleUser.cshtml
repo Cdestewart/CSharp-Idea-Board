@@ -1,0 +1,87 @@
+@using System.Linq
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <title>Portfolio</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body{
+                /* background:linear-gradient(370deg,#BD3F32,#CB356B); */
+                /* background:linear-gradient(370deg,#2a0845,#6441A5); */
+                 background:linear-gradient(370deg,#654e5e, #bbb5c1);
+                min-height:1100px;
+                min-width: 970px;
+                
+            }
+            h1{
+                color:white;
+            }
+            #container{
+                width:900px;
+                padding:10px;
+                background:linear-gradient(370deg,ghostwhite,whitesmoke);
+                min-height: 400px;
+                margin-top:20px;
+                border-radius:8px;
+                /* box-shadow: 5px 14px 27px 19px lightpink inset; */
+                
+            }
+           #logout{
+               margin-top:20px;
+           }
+            .table th{
+            text-align: center;   
+            }
+            .table td{
+            text-align: center;   
+            }
+            #add{
+                margin:13px 0px 0px 745px;
+            }
+            .sub{
+                margin-top:30px;
+                margin-bottom:30px;
+
+            }
+
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        </script>
+    </head>
+    <body>
+       
+        <div class="row">
+            <div class="col-sm-1">
+                <a  class="btn btn-default" id="logout" href="/bright_ideas">Bright Ideas</a>
+            </div>
+            <div class="col-sm-7">
+              
+            </div>
+            
+
+            <div class="col-sm-1">
+                <a  class="btn btn-default" id="logout" href="/logout">Log Out</a>
+            </div>
+
+        </div>
+        <div id = "container">
+            <h4>Name: @ViewBag.User.LName</h4>
+            <h4>Alias: @ViewBag.User.FName</h4>
+            <h4>Email: @ViewBag.User.Email</h4>
+            <hr>
+            <hr>
+            <h5>Total Number of Posts:@ViewBag.Ideas.Count</h5>
+            <h5>Total Number of Likes:@ViewBag.Likes.Count</h5>
+
+
+        
+
+        </div>
+            
+
+
+    </body>
+
+</html>

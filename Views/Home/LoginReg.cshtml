@@ -1,0 +1,135 @@
+
+@model User
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <title>Portfolio</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            body{
+                /* background:linear-gradient(370deg,#BD3F32,#CB356B); */
+                /* background:linear-gradient(370deg,#2a0845,#6441A5); */
+                 background:linear-gradient(370deg,#654e5e, #bbb5c1);
+                height:1100px;
+                
+            }
+            .navSub{
+                display: inline-block;
+               
+                text-align: justify;
+            }
+            #container{
+                width:900px;
+                padding:10px;
+                background:linear-gradient(370deg,ghostwhite,whitesmoke);
+         
+                margin-top:20px;
+                border-radius:8px;
+                /* box-shadow: 5px 14px 27px 19px lightpink inset; */
+                
+            }
+           
+
+            #nav{
+                color:white;
+                
+            }
+
+
+            span{
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            .sub{
+                /* box-shadow: -1px -3px 27px 5px rgb(189, 189, 189) inset; */
+                display:inline-block;
+                vertical-align: top;
+                padding:10px 0px 65px 55px;
+                margin-right:70px;
+            }
+
+            h1{
+                display:inline-block;
+            
+            }
+            #nav a{
+                margin-left:500px;
+            }
+            h3{
+                margin-bottom: 15px;
+            }
+            .emailError{
+                color:firebrick;
+            }
+
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#feed").click(function(){
+                $("#full").load("demo_test.txt");
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id = "nav">
+
+            <h1>Register to this site!</h1>
+
+
+        </div>
+        <div id = "container">
+            <div class="row">
+          <div class="col-sm-1"></div>
+
+            <div class="registeration col-sm-4 border-right">
+                <h4 class = "emailError">@ViewBag.EmailError</h4>
+
+                <h3>Register:</h3>
+                <form asp-action="CreateAccount" asp-controller="Home">
+                    <div class="form-group">
+
+                        <span asp-validation-for="LName"></span>
+                        <label>Name: </label>
+                        <input asp-for="LName" class="form-control"><br>
+                        
+                        <span asp-validation-for="FName"></span>
+                        <label>Alias: </label>
+                        <input asp-for="FName" class="form-control"><br>
+                   
+                        <span asp-validation-for="Email"></span>            
+                        <label>Email: </label>
+                        <input asp-for="Email" class="form-control"><br>
+
+                        <span asp-validation-for="Password"></span>
+                        
+                        <label>Password: </label>
+                        <input asp-for="Password" class="form-control"><br>
+                        
+                      
+                        <span asp-validation-for="PasswordConfirm"></span>
+                        
+                        <label>Confirm Password: </label>
+                        <input asp-for="PasswordConfirm" class="form-control"><br>
+                    
+                        <button type="submit" class="btn btn-default center-block">Sign up now</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <h3>Login:</h3>
+                @Html.Partial("LoginPartial")
+                </div>
+            </div>
+        
+        </div>
+            
+
+
+    </body>
+
+</html>

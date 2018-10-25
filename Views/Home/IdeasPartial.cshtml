@@ -1,0 +1,32 @@
+
+<div class = "sub">
+    @{
+        foreach (var idea in ViewBag.Ideas)
+        {
+        <div class = "row">
+            <div class = "col-sm-2">
+                <h4><a href="/user/@idea.Creator.UserId">@idea.Creator.FName</a> says:</h4>
+            </div>
+             <div class = "col-sm-9">
+                <p>@idea.Description</p>
+            </div>
+            @if(idea.Creator.UserId==ViewBag.UserId)
+            {
+                <a href="/delete/@idea.IdeaId" class = "btn btn-default">Delete</a>
+            }
+        </div>
+        <div class = "row">
+            <div class = "col-sm-3"></div>
+            <div class = "col-sm-3">
+            <a href="like/@idea.IdeaId">Like</a>
+            </div>
+            <div class = "col-sm-4">
+            <a href="/bright_ideas/@idea.IdeaId">@idea.Likes.Count people like this</a>
+            </div>
+        </div>
+        <div class = "row"></div>
+        }
+    }
+    
+
+</div>
